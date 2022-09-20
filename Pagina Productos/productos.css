@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(68, 192, 250);
+}
+.contenedor_productos{
+    display: grid;
+    grid-template-columns:repeat(3,350px);
+    justify-items: stretch;
+    row-gap: 30px;
+    column-gap: 20px;
+}
+.productos{
+    font-size: 30px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border:5px solid rgb(0, 55, 235) ;
+}
+.productos{
+    width: 350px;
+    height: 450px;
+    background-color: rgb(4, 19, 53);
