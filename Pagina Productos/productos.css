@@ -1,24 +1,28 @@
 body{
     background-color: rgb(68, 192, 250);
 }
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.productos{
+    width: auto;
+    height: 450px;
+    background-color: rgb(68, 192, 250);
+    text-align: center;
+    border: 2px solid  rgb(3, 62, 90);
+    margin: 3px;
+}
 .contenedor_productos{
     display: grid;
-    grid-template-columns:repeat(3,350px);
-    justify-items: stretch;
-    row-gap: 30px;
-    column-gap: 20px;
+    grid-template-columns: auto auto auto;
 }
-.productos{
-    font-size: 30px;
-    color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.c1,.c5,.c9,.c13{
+    grid-column: 1/3;
     display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    border:5px solid rgb(0, 55, 235) ;
+    justify-content:left;
+s}
+.c4,.c8,.c12{
+    grid-column: 2/4;
 }
-.productos{
-    width: 350px;
-    height: 450px;
-    background-color: rgb(4, 19, 53);
+
